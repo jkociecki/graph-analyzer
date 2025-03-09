@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="myCyclePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="-Infinity" prefHeight="493.0" prefWidth="252.0" style="-fx-background-color: DDE6ED;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="cycleTEXT" layoutY="70.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="-Infinity" prefHeight="426.0" prefWidth="252.0" style="-fx-background-color: rgb(82, 109, 130); -fx-border-color: rgb(82, 109, 130);" />
+      <BorderPane prefHeight="69.0" prefWidth="252.0" style="-fx-background-color: DDE6ED;">
+         <left>
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="17.0" prefWidth="99.0" text="        Color Cycle:" textAlignment="CENTER" BorderPane.alignment="CENTER_RIGHT" />
+         </left>
+         <center>
+            <TextField fx:id="cyc" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="87.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</Pane>
